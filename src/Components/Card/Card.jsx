@@ -25,7 +25,7 @@ function Card({food}) {
         <h4 className="card__title">
             {title}.<span className="card__price">{price}</span>
         </h4>
-        <div className="btn-conta">
+        <div className="btn-container">
             <Button title={'+'} type={'add'} onClick={handleIncrement}/>
             {count!==0 ?(  
                 <Button title={'-'} type={'remove'} onClick={handleDecrement}/>
